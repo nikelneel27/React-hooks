@@ -1,0 +1,45 @@
+.usestate {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  background-color: #100e17;
+  color: #ffffff;
+
+  .usestate_right_side {
+    max-width: 500px;
+    .subheading {
+      background-color: rgb(233, 224, 224);
+      padding: 10px;
+    }
+  }
+  .usestate_left_side {
+    display: block;
+
+    .usestate_input {
+      height: 50px;
+      outline: none;
+      border: 1px solid #ccc;
+      color: #000;
+      cursor: pointer;
+      border-radius: 12px;
+      max-width: 350px;
+      width: 100%;
+      margin: 20px 0;
+      font-size: 22px;
+      font-weight: 500;
+      padding: 15px;
+      &:hover {
+        border: 1px solid rgb(132, 208, 233);
+      }
+      &::placeholder {
+        color: rgb(153, 175, 245);
+        font-weight: 300;
+      }
+    }
+  }
+}
+.heading {
+  font-size: 24px;
+  color: lightBlue;
+}

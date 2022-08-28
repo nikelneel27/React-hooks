@@ -1,0 +1,21 @@
+.component_c,
+.component_a,
+.component_b {
+  padding: 10px;
+  .component_c_heading {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .component_c_value {
+    font-size: 14px;
+    font-weight: 100;
+  }
+}
+
+.component_c {
+  .component_c_div_c1 {
+    border: 1px solid #ff10f0;
+    border-radius: 12px;
+    padding: 10px;
+  }
+}

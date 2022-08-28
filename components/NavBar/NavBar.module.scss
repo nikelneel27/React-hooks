@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #17141d;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .navbar_left {
+    display: flex;
+  }
+  .navbar_right_heading {
+    font-weight: 100;
+  }
+}
+.navbar_logo {
+}
+.navbar_heading {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
